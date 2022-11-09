@@ -49,7 +49,7 @@ if __name__ == "__main__":
         "--id-attrib",
         default="id",
         action="store",
-        help="The name of the object ID attribute (inthe table).",
+        help="The name of the object ID attribute (in the table).",
     )
     parser.add_argument(
         "--column",

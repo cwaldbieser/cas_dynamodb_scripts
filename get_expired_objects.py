@@ -54,7 +54,7 @@ def get_timestamp(offset):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("Perform DynamoDB bulk operations.")
+    parser = argparse.ArgumentParser("Get information about expired CAS objects.")
     parser.add_argument("table", action="store", help="The table to operate on.")
     parser.add_argument(
         "--timestamp-name",
